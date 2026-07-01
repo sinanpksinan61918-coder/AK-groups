@@ -1,4 +1,4 @@
-export const GALLERY_IMAGES = [
+﻿export const GALLERY_IMAGES = [
   { src: "/images/hostel/bedspace.jpg", label: "Shared Room" },
   { src: "/images/hostel/halll.jpg", label: "Hall View" },
   { src: "/images/hostel/studyarea.jpg", label: "Study Area" },
@@ -16,11 +16,6 @@ export const AMENITIES = [
     icon: "Wifi" as const,
     title: "High-speed Wi-Fi",
     description: "Fibre broadband across all rooms",
-  },
-  {
-    icon: "ShieldCheck" as const,
-    title: "24/7 Security",
-    description: "CCTV coverage and gated entry",
   },
   {
     icon: "Droplets" as const,
@@ -46,6 +41,5 @@ export const AMENITIES = [
 
 export const HERO_STATS = [
   "3 Beds per Room",
-  "24/7 Security",
   "100% Clean & Ready",
 ] as const;

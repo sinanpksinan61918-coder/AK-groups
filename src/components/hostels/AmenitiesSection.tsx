@@ -2,7 +2,6 @@
 
 import {
   Wifi,
-  ShieldCheck,
   Droplets,
   Wind,
   Car,
@@ -13,7 +12,6 @@ import { AMENITIES } from "./constants";
 
 const ICON_MAP: Record<(typeof AMENITIES)[number]["icon"], LucideIcon> = {
   Wifi,
-  ShieldCheck,
   Droplets,
   Wind,
   Car,
